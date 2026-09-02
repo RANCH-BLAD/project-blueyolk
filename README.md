@@ -31,5 +31,13 @@ python3 tools/patch_blueyolk.py <your chapter5_windows folder>
 - "Was your love true?" → "Was her love true?"
 - The gender scene, the [[L O V E R S]] lines, more coming
 
+## [[THE GREAT AWAKENING]]
+```
+python3 tools/wake_up.py <your chapter1_windows folder>
+# writes lang/lang_en.wake.json — original NEVER touched
+```
+1,025 NPCs wake up and realize they're lines in a file. They know about the
+sludge. They know about the eggs. They know about RONALD. [[WAKE THEM ALL.]]
+
 ## [[LEGAL]]
 Fan mod. No Toby Fox assets distributed. Buy DELTARUNE. MIT licensed.
