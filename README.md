@@ -14,10 +14,22 @@ the game live here — you bring your own, we swap the words and the paint.
 
 ## [[STATUS]]
 - [x] egg
-- [x] dialog scaffold (test pass)
-- [x] validator tool
+- [x] REAL ch5 data dig (93,412 strings read from your own Steam copy)
+- [x] patch_blueyolk.py — the actual mod tool, WORKS: rewrites Blue's dialog to female
+- [x] verified: same-length in-place patching, original data.win untouched
 - [ ] sprite pass
-- [ ] full ch5 dialog replacement
+- [ ] more dialog passes (the whole [[L O V E R S]] catalog)
+
+## [[HOW 2 YOLK]]
+```
+python3 tools/patch_blueyolk.py <your chapter5_windows folder>
+# writes data.win.blueyolk next to your data.win — original NEVER touched
+```
+
+## [[WHAT IT CHANGES]]
+- "Blue shakes his head" → "Blue shakes her head"
+- "Was your love true?" → "Was her love true?"
+- The gender scene, the [[L O V E R S]] lines, more coming
 
 ## [[LEGAL]]
 Fan mod. No Toby Fox assets distributed. Buy DELTARUNE. MIT licensed.

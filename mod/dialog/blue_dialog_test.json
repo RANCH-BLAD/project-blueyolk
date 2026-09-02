@@ -1,8 +1,0 @@
-{
-  "_comment": "[[TEST]] dialog replacement scaffold - Blue (female) voice pass",
-  "speaker": "blue",
-  "lines": [
-    { "id": "test_001", "text": "[[TEST LINE]] the yolk speaks", "voice": "blue_f" },
-    { "id": "test_002", "text": "[[Hyperlink Blocked]] but make it female", "voice": "blue_f" }
-  ]
-}
